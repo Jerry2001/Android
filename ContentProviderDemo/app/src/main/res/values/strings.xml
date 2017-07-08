@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ContentProviderDemo</string>
+    <string name="title_activity_show_contact">show_contact</string>
+</resources>
