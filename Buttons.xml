@@ -1,0 +1,21 @@
+
+<LinearLayout  android:layout_width="match_parent"
+    		   android:layout_height="match_parent"
+    		   android:orientation="vertical"
+    >
+	 <Button android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+         		android:text="Starfish is a beautiful creature"
+         		android:background="#fff"
+         		android:layout_margin="20dp"
+				android:padding="10dp"         
+         />
+    <Button android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+         		android:text="Star fish can REGENERATE"
+         		android:background="#9ff"
+         		android:layout_margin="20dp"
+				android:padding="10dp"         
+         />
+ 
+</LinearLayout>
