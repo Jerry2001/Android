@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.jerry2001.rela.MainActivity">
+	<ImageView
+        android:src="@drawable/ocean"
+        android:scaleType="centerCrop"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+      	android:id="@+id/hey"
+        />
+    <TextView
+        android:id="@+id/heyx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pebble Beach"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_below="@id/hey"
+        />
+    <TextView
+        android:id="@+id/heyxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="California"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_below="@id/heyx"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 miles away"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_below="@id/heyxx"
+        android:textSize="15sp"
+        />
+</RelativeLayout>
