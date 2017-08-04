@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_weight="0.8"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        >
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team A"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="60dp"
+                android:textColor="#616161"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3 POINTS"
+                android:layout_marginBottom="5dp"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                />
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2 POINTS"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:layout_marginBottom="5dp"
+                />
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FREE SHOT"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000"
+            />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team B"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:textColor="#616161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="60dp"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3 POINTS"
+                android:layout_marginBottom="5dp"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                />
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2 POINTS"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:layout_marginBottom="5dp"
+                />
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FREE SHOT"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:layout_marginBottom="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:text="RESET"
+            />
+    </RelativeLayout>
+</LinearLayout>
