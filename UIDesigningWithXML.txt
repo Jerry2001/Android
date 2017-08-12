@@ -5,3 +5,5 @@ https://drive.google.com/open?id=0B840wuFckEFvWkZsZUhZbDFhNGM
 https://drive.google.com/open?id=0B840wuFckEFvWVo5Qkhjc2xZVTA
 
 https://drive.google.com/drive/u/0/folders/0B840wuFckEFvQzRDeGdxeERtaXM
+
+https://medium.com/@ngohongphuc2001/relative-layout-scrollview-building-layout-6b50b5bf7eba
