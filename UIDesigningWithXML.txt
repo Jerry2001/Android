@@ -9,3 +9,5 @@ https://drive.google.com/open?id=0B840wuFckEFvQzRDeGdxeERtaXM
 https://medium.com/@ngohongphuc2001/relative-layout-scrollview-building-layout-6b50b5bf7eba
 
 https://drive.google.com/drive/folders/0B840wuFckEFvLThkb0dSMDBWM1E?usp=sharing
+
+https://medium.com/@ngohongphuc2001/nested-viewgroup-building-layout-project-e792a140d00f
